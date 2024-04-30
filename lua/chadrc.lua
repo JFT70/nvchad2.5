@@ -5,12 +5,39 @@
 local M = {}
 
 M.ui = {
-	theme = "onedark",
+  theme = "doomchad",
+
+  statusline = {
+    theme = "minimal", -- default/vscode/vscode_colored/minimal
+    -- separator_style = "round",
+  },
+
+  tabufline = {
+    enabled = true,
+    lazyload = false,
+  },
+
+  telescope = {
+    style = "bordered"
+  },
+
+  transparency = false,
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },
 	-- },
+  hl_override = {
+    Comment = {
+      italic = true,
+    },
+  },
+  hl_add = {
+    NvimTreeOpenedFolderName = {
+      fg = "green",
+      bold = true,
+    },
+  },
 }
 
 return M
