@@ -30,3 +30,5 @@ map("n", "<leader>gn", function () vim.diagnostic.goto_next() end, { desc = "Go 
 map("n", "<leader>gp", function () vim.diagnostic.goto_prev() end, { desc = "Go to previous diagnostic" })
 map("n", "<leader>gl", "<cmd>Telescope diagnostics<cr>", { desc = "Open Telescope diagnostics" })
 
+-- Terminal
+map("t", "<Esc>", "<C-\\><C-N>", { desc = "Go to NTERMINAL mode"})
