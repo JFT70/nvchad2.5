@@ -12,7 +12,7 @@ M.base46 = {
 M.ui = {
   statusline = {
     theme = "minimal", -- default/vscode/vscode_colored/minimal
-    -- separator_style = "round",
+    separator_style = "round",
   },
 
   tabufline = {
@@ -41,6 +41,10 @@ M.ui = {
       fg = "green",
       bold = true,
     },
+  },
+  lsp = {
+    signature = true,
+    semantic_tokens = true,
   },
 }
 
