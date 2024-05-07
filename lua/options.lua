@@ -18,7 +18,7 @@ o.relativenumber = true
 
 o.termguicolors = true
 
--- opt.tabstop = 4
+o.tabstop = 2
 -- opt.shiftwidth = 4
 
 -- Enable Conditional Compilation in Rust
