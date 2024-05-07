@@ -25,7 +25,6 @@ return
       -- "lua",
       "markdown",
       "markdown_inline",
-      "ocaml",
       "python",
       "rust",
       "toml",
