@@ -32,3 +32,8 @@ map("n", "<leader>gl", "<cmd>Telescope diagnostics<cr>", { desc = "Open Telescop
 
 -- Terminal
 map("t", "<Esc>", "<C-\\><C-N>", { desc = "Go to NTERMINAL mode"})
+
+
+-- Git-Fugitive
+map("n", "<leader>G", "<cmd>Git<cr>", { desc = "Open Git-Fugitive" })
+map("n", "<leader>L", "<cmd>Gclog<cr>", { desc = "Open Git Log" })
