@@ -1,4 +1,9 @@
 return {
+  actions = {
+    open_file = {
+      resize_window = false
+    }
+  },
   filters = {
     custom = {
       'node_modules',  -- ignores all node_modules directories
