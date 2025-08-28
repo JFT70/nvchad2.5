@@ -18,5 +18,7 @@ return {
     dap.listeners.before.event_exited["dapui_config"] = function()
       dapui.close()
     end
+
+    require("dap-python").setup("python3")
   end
 }
