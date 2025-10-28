@@ -5,6 +5,7 @@ return
   dependencies = {
     "nvim-treesitter/nvim-treesitter-textobjects",
   },
+  lazy = false,
   opts = {
     ensure_installed = {
       -- default
@@ -22,7 +23,7 @@ return
       "html",
       "javascript",
       "json",
-      -- "lua",
+      "lua",
       "markdown",
       "markdown_inline",
       "python",
