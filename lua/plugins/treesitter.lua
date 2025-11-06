@@ -18,7 +18,7 @@ return
       "css",
       "dockerfile",
       "elixir",
-      "go",
+      -- "go",
       "haskell",
       "html",
       "javascript",

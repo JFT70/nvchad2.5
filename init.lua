@@ -35,3 +35,7 @@ require "autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+vim.lsp.enable('clangd')
+vim.lsp.enable('gopls')
+vim.lsp.enable('pyright')
